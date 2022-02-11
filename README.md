@@ -1,3 +1,22 @@
 # Synchronous Learning Engagement
 
-This is a line from R Studio.
+```{r}
+library(tidyverse)
+library(tidymodels)
+library(broom)
+library(mosaic)
+```
+
+```{r}
+LearningSurvey <- read.csv("Online Learning.csv")
+```
+
+```{r}
+LearningSurvey
+```
+
+```{r}
+glimpse(LearningSurvey)
+```
+
+
